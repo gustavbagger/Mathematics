@@ -28,6 +28,7 @@ def markdown_to_html_node(markdown):
                 while count < max_check and block[count] == "#":
                     count += 1
                 tag = f"h{count}"
+                block = block[count:].strip()
 
                 text_nodes = text_to_textnodes(block)
                 children = list()
@@ -43,6 +44,7 @@ def markdown_to_html_node(markdown):
                 block_lines = block.split("\n")
                 children = list()
                 for line in block_lines:
+                    line = line[2:]
                     line_text_nodes = text_to_textnodes(line)
                     line_children = list()
                     for node in line_text_nodes:
@@ -59,6 +61,7 @@ def markdown_to_html_node(markdown):
                 block_lines = block.split("\n")
                 children = list()
                 for line in block_lines:
+                    line = line[3:]
                     line_text_nodes = text_to_textnodes(line)
                     line_children = list()
                     for node in line_text_nodes:
@@ -69,6 +72,7 @@ def markdown_to_html_node(markdown):
 
             case BlockType.QUOTE:
                 tag = "blockquote"
+                block = block.replace("> ","")
                 text_nodes = text_to_textnodes(block)
                 children = list()
                 for node in text_nodes:
@@ -78,7 +82,10 @@ def markdown_to_html_node(markdown):
 
             case BlockType.CODE:
                 tag = "code"
-                text_node = TextNode(block[3:-3],TextType.CODE)
+                block = block[3:-3]
+                if block.split("\n")[0] == "":
+                    block = block[1:]
+                text_node = TextNode(block,TextType.CODE)
                 
                 block_node = ParentNode(tag = "pre", children = [text_node_to_html_node(text_node)])
             

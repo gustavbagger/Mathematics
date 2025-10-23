@@ -8,7 +8,7 @@ def copy_over(current_path,target_path):
         if os.path.isfile(element_path):
             print(shutil.copy(element_path,target_path))
         else:
-            print(os.mkdir(os.path.join(target_path,element)))
+            os.mkdir(os.path.join(target_path,element))
             return copy_over(element_path,os.path.join(target_path,element))
     return
 
@@ -18,16 +18,11 @@ def copy_and_override(source,target):
     target_path = os.path.abspath(target)
 
     if os.path.exists(target_path):
-        print(os.listdir(target_path))
         shutil.rmtree(target_path)
     os.mkdir(target_path)
-    print(os.listdir(target_path))
 
     source_path = os.path.abspath(source)
 
     copy_over(source_path,target_path)
-    print(os.listdir(target_path))
     pass
 
-
-copy_and_override("static","public")
