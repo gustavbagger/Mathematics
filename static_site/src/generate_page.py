@@ -12,18 +12,36 @@ def generate_page(from_path, template_path, dest_path):
     with open(template_path) as template:
         contents_template_path = template.read()
         template.close()
-    
-    print(contents_template_path)
+
     html_string = markdown_to_html_node(contents_from_path).to_html()
     title = extract_title(contents_from_path)
     new_content = contents_template_path.replace("{{ Title }}",title)
-    print(new_content)
+
     new_content = new_content.replace("{{ Content }}", html_string)
-    print(new_content)
+
     os.makedirs(os.path.dirname(dest_path),exist_ok = True)
 
     with open(dest_path, "w") as dest_file:
         dest_file.write(new_content)
+        dest_file.close()
     pass
+
+def generate_pages_recursive(dir_path_content, template_path, dest_dir_path):
+
+    for file in os.listdir(dir_path_content):
+        file_path = os.path.join(dir_path_content,file)
+        if os.path.isfile(file_path):
+            if file[-3:] == ".md":
+                file_html = file[:-3]+".html"
+                print(file_html)
+                dest_path = os.path.join(dest_dir_path,file_html)
+                generate_page(file_path,template_path,dest_path)
+            continue
+        else:
+            dest_path = os.path.join(dest_dir_path,file)
+            generate_pages_recursive(file_path,template_path,dest_path)
+            continue
+    return
+            
 
     
