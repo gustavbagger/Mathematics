@@ -7,7 +7,6 @@ def main():
         basepath = sys.argv[1]
     else:
         basepath = "/"
-    print(basepath)
     copy_and_override("static","docs")
     generate_pages_recursive("content/","template.html","docs/",basepath=basepath)
 main()
