@@ -1,13 +1,13 @@
-# Gustav Kjærbye Bagger - CV
+# Gustav Kjærbye Bagger
 
 I am a PhD candidate in number theory at UNSW Canberra. My research interests include cyclotomic fields, splitting behaviour of prime ideals across Galois extensions and Artin's primitive root conjecture. Previously, I have worked on problems related to finding primitive elements in subsets of finite fields and norm-Euclideanity in cyclic cubic extensions. Outside mathematics, I enjoy hiking, climbing, coding and boardgames.
 
 #### Employment
 
 - **Academic tutor**_, University of New South Wales, 2025-present_
-- **Mathematics teacher**_, Strinda videregaaende skole, 2024_
+- **Mathematics teacher**_, Strinda videregående skole, 2024_
 - **Private tutor**_, Gotutor Denmark, 2023-2024_
-- **Mathematics teacher**_, Gauldal videregaaende skole, 2022-2023_
+- **Mathematics teacher**_, Gauldal videregående skole, 2022-2023_
 
 #### Education
 
