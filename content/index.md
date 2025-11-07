@@ -1,46 +1,26 @@
-# Tolkien Fan Club
+# Gustav Kjærbye Bagger - CV
 
-![JRR Tolkien sitting](/images/tolkien.png)
+I am a PhD candidate in number theory at UNSW Canberra. My research interests include cyclotomic fields, splitting behaviour of prime ideals across Galois extensions and Artin's primitive root conjecture. Previously, I have worked on problems related to finding primitive elements in subsets of finite fields and norm-Euclideanity in cyclic cubic extensions. Outside mathematics, I enjoy hiking, climbing, coding and boardgames.
 
-Here's the deal, **I like Tolkien**.
+#### Employment
 
-> "I am in fact a Hobbit in all but size."
->
-> -- J.R.R. Tolkien
+- **Academic tutor**_, University of New South Wales, 2025-present_
+- **Mathematics teacher**_, Strinda videregaaende skole, 2024_
+- **Private tutor**_, Gotutor Denmark, 2023-2024_
+- **Mathematics teacher**_, Gauldal videregaaende skole, 2022-2023_
 
-## Blog posts
+#### Education
 
-- [Why Glorfindel is More Impressive than Legolas](/blog/glorfindel)
-- [Why Tom Bombadil Was a Mistake](/blog/tom)
-- [The Unparalleled Majesty of "The Lord of the Rings"](/blog/majesty)
+- **PhD in Number Theory**_, University of New South Wales, 2024-present_
+- **Practical Pedagogical Degree**_, Norwegian University of Science and Technology, 2023_
+- **MSc in Algebraic Structures**_, Norwegian University of Science and Technology, 2022_
+- **BSc in Pure Mathematics**_, Imperial College London, 2020_
 
-## Reasons I like Tolkien
+#### Academic writing
 
-- You can spend years studying the legendarium and still not understand its depths
-- It can be enjoyed by children and adults alike
-- Disney _didn't ruin it_ (okay, but Amazon might have)
-- It created an entirely new genre of fantasy
-
-## My favorite characters (in order)
-
-1. Gandalf
-2. Bilbo
-3. Sam
-4. Glorfindel
-5. Galadriel
-6. Elrond
-7. Thorin
-8. Sauron
-9. Aragorn
-
-Here's what `elflang` looks like (the perfect coding language):
-
-```
-func main(){
-    fmt.Println("Aiya, Ambar!")
-}
-```
+- [The modified prime sieve for primitive elements in finite fields, 2025](https://arxiv.org/abs/2507.21515) 
+- [The determination of norm-Euclidean cyclic cubic fields, 2025](https://arxiv.org/abs/2507.05862) 
+- [Hybrid bounds for prime divisors, 2024](https://arxiv.org/abs/2412.00010) 
+- [Representation Schemes for Finitely Generated Groups, 2022](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/3030012)
 
 Want to get in touch? [Contact me here](/contact).
-
-This site was generated with a custom-built [static site generator](https://www.boot.dev/courses/build-static-site-generator-python) from the course on [Boot.dev](https://www.boot.dev).

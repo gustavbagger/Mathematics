@@ -2,8 +2,8 @@
 
 [< Back Home](/)
 
-Give me a call anytime to chat about Tolkien!
+I can be reached via email at 
 
-`555-555-5555`
+`g.bagger@unsw.edu.au`
 
-**"Váya márië."**
+You can also find a more updated version of my research on [ArXiv](https://arxiv.org/search/math?searchtype=author&query=Bagger%2C+G+K).
