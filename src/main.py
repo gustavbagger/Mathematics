@@ -4,5 +4,5 @@ import sys
 
 def main():
     copy_and_override("static","docs")
-    generate_pages_recursive("content/","template.html","docs/",basepath=sys.argv[2])
+    generate_pages_recursive("content/","template.html","docs/",basepath=sys.argv[1])
 main()

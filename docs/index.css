@@ -1,6 +1,6 @@
 body {
   background-color: #1f1c25;
-  color: #f0e6d1;
+  color: #d1e4f0;
   font-family: "Luminari", "Georgia", serif;
   line-height: 1.7;
   margin: 0;
@@ -20,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #12b4c0;
+  color: #6b7aff;
   margin-top: 24px;
   margin-bottom: 16px;
   text-shadow: 2px 2px 4px #000;
@@ -45,14 +45,14 @@ h6 {
 }
 
 a {
-  color: #f0e6d1;
+  color: #ffffff;
   text-decoration: none;
-  border-bottom: 2px solid #f0e6d1;
+  border-bottom: 2px solid #ffffff;
 }
 
 a:hover {
-  color: #f0e6d1;
-  border-color: #f0e6d1;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 
 ul,
