@@ -25,6 +25,6 @@ I am a PhD candidate in number theory at UNSW Canberra. My research interests in
 
 You can also find a more updated version of my research on [ArXiv](https://arxiv.org/search/math?searchtype=author&query=Bagger%2C+G+K).
 
-Want to get in touch? I can be reached via email at  [contact](/contact/index.md)
+Want to get in touch? I can be reached via email at  [contact](./contact/index.md)
 
 `g.bagger@unsw.edu.au`
