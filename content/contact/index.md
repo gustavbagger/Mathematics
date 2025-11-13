@@ -1,6 +1,6 @@
 # Contact the Author
 
-[< Back Home](../..)
+[< Back Home](../)
 
 I can be reached via email at 
 
