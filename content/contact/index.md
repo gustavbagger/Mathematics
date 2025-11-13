@@ -1,6 +1,6 @@
 # Contact the Author
 
-[< Back Home](../)
+[< Back Home](/Mathematics/index.html)
 
 I can be reached via email at 
 
