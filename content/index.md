@@ -23,6 +23,6 @@ I am a PhD candidate in number theory at UNSW Canberra. My research interests in
 - [Hybrid bounds for prime divisors, 2024](https://arxiv.org/abs/2412.00010) 
 - [Representation Schemes for Finitely Generated Groups, 2022](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/3030012)
 
-You can also find a more updated version of my research on [ArXiv](https://arxiv.org/search/math?searchtype=author&query=Bagger%2C+G+K).
+You can also find a more up to date account of my research on [ArXiv](https://arxiv.org/search/math?searchtype=author&query=Bagger%2C+G+K).
 
 Want to get in touch? [Contact](./contact/index.html)
