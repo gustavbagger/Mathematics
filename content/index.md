@@ -25,4 +25,4 @@ I am a PhD candidate in number theory at UNSW Canberra. My research interests in
 
 You can also find a more up to date account of my research on [ArXiv](https://arxiv.org/search/math?searchtype=author&query=Bagger%2C+G+K).
 
-Want to get in touch? [Contact](./contact/index.html)
+Want to get in touch? [Contact](./contact/)
