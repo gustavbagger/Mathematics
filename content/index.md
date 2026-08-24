@@ -43,4 +43,6 @@ You can also find a more up to date account of my research on [ArXiv](https://ar
 12. "Hybrid bounds for x^n-1"_, Number Theory seminar, University of New South Wales_, 26.09.2024
 
 
-Want to get in touch? [Contact](./contact/)
+Want to get in touch? I can be reached via email at 
+
+`g.bagger@unsw.edu.au`
