@@ -17,6 +17,7 @@ I am a PhD candidate in number theory at UNSW Canberra. My research interests in
 - **BSc in Pure Mathematics**_, Imperial College London, 2020_
 
 #### Academic writing
+
 1) [A note on least primitive roots, 2026](https://arxiv.org/abs/2608.20431)
 2) [Hybrid bounds for prime divisors, Integers, 2026](https://math.colgate.edu/~integers/aa95/aa95.pdf) 
 3) [The modified prime sieve for primitive elements in finite fields, 2025](https://arxiv.org/abs/2507.21515) 
@@ -26,6 +27,7 @@ I am a PhD candidate in number theory at UNSW Canberra. My research interests in
 You can also find a more up to date account of my research on [ArXiv](https://arxiv.org/search/math?searchtype=author&query=Bagger%2C+G+K).
 
 #### Talks and seminars
+
 1) *Chasing primitive elements*, Algebra seminar, University of Oslo - Oslo, 17.09.2026
 2) *Small(er) least primitive roots*, Number Theory Down Under 14, University of New South Wales - Canberra, 31.08.2026
 3) *Adèles: when one completion simply won’t do!*, Number Theory seminar, University of New South Wales - Canberra, 14.07.2026
