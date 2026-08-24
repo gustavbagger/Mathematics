@@ -29,7 +29,7 @@ def block_to_block_type(block):
             switch[0] = False
             switch[2] = False
             continue
-        if switch[2] and line.startswith(f"{line_nr}. "):
+        if switch[2] and (line.startswith(f"{line_nr}. ") or line.startswith(f"{line_nr}) ") or line.startswith("1) ") or line.startswith("1. ")):
             switch[0] = False
             switch[1] = False
             line_nr += 1
