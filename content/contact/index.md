@@ -1,6 +1,6 @@
-# Contact the Author
+# Contact
 
-[< Back Home](/)
+[< Back Home](https://gustavbagger.github.io/Mathematics/)
 
 I can be reached via email at 
 

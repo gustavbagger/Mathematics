@@ -29,18 +29,18 @@ You can also find a more up to date account of my research on [ArXiv](https://ar
 
 ### Talks and seminars
 
-1. **Chasing primitive elements**_, Algebra seminar, University of Oslo_, 17.09.2026
-2. **Small(er) least primitive roots**_, Number Theory Down Under 14, University of New South Wales_, 31.08.2026
-3. **Adèles: when one completion simply won’t do!**_, Number Theory seminar, University of New South Wales_, 14.07.2026
-4. **Fancy LEGO bricks**_, 3 minute thesis, University of New South Wales_, 29.06.2026
-5. **Cyclotomic composites**_, Number Theory seminar, University of New South Wales_, 03.03.2026
-6. **Norm-Euclidean cyclic cubic fields**_, 69th Annual Meeting of the Australian Mathematical Society, La Trobe University_, 09.12.2025
-7. **Detecting primitive elements in finite fields**_, Number Theory Down Under(er), University of Canterbury_, 26.08.2025
-8. **Ray class fields**_, Number Theory seminar, University of New South Wales_, 15.07.2025
-9. **A short history of nearly everything ideal - part 2**_, Number Theory seminar, University of New South Wales_, 20.02.2025
-10. **A short history of nearly everything ideal - part 1**_, Number Theory seminar, University of New South Wales_, 13.02.2025
-11. **Hybrid bounds for prime divisors**_, 68th Annual Meeting of the Australian Mathematical Society, University of Auckland_, 10.12.2024
-12. **Hybrid bounds for x^n-1**_, Number Theory seminar, University of New South Wales_, 26.09.2024
+1. "Chasing primitive elements"_, Algebra seminar, University of Oslo_, 17.09.2026
+2. "Small(er) least primitive roots"_, Number Theory Down Under 14, University of New South Wales_, 31.08.2026
+3. "Adèles: when one completion simply won’t do!"_, Number Theory seminar, University of New South Wales_, 14.07.2026
+4. "Fancy LEGO bricks"_, 3 minute thesis, University of New South Wales_, 29.06.2026
+5. "Cyclotomic composites"_, Number Theory seminar, University of New South Wales_, 03.03.2026
+6. "Norm-Euclidean cyclic cubic fields"_, 69th Annual Meeting of the Australian Mathematical Society, La Trobe University_, 09.12.2025
+7. "Detecting primitive elements in finite fields"_, Number Theory Down Under(er), University of Canterbury_, 26.08.2025
+8. "Ray class fields"_, Number Theory seminar, University of New South Wales_, 15.07.2025
+9. "A short history of nearly everything ideal - part 2"_, Number Theory seminar, University of New South Wales_, 20.02.2025
+10. "A short history of nearly everything ideal - part 1"_, Number Theory seminar, University of New South Wales_, 13.02.2025
+11. "Hybrid bounds for prime divisors"_, 68th Annual Meeting of the Australian Mathematical Society, University of Auckland_, 10.12.2024
+12. "Hybrid bounds for x^n-1"_, Number Theory seminar, University of New South Wales_, 26.09.2024
 
 
 Want to get in touch? [Contact](./contact/)
