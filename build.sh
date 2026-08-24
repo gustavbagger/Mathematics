@@ -1,1 +1,1 @@
-python3 src/main.py "/Mathematics/"
+python3 src/main.py ""
