@@ -2,21 +2,21 @@
 
 I am a PhD candidate in number theory at UNSW Canberra. My research interests include cyclotomic fields, splitting behaviour of prime ideals across Galois extensions and Artin's primitive root conjecture. Previously, I have worked on problems related to finding primitive elements in subsets of finite fields and norm-Euclideanity in cyclic cubic extensions. Outside mathematics, I enjoy hiking, climbing, coding and boardgames.
 
-#### Employment
+### Employment
 
 - **Academic tutor**_, University of New South Wales_, 2025-present
 - **Mathematics teacher**_, Strinda videregående skole_, 2024
 - **Private tutor**_, Gotutor Denmark_, 2023-2024
 - **Mathematics teacher**_, Gauldal videregående skole_, 2022-2023
 
-#### Education
+### Education
 
 - **PhD in Number Theory**_, University of New South Wales_, 2024-present
 - **Practical Pedagogical Degree**_, Norwegian University of Science and Technology_, 2023
 - **MSc in Algebraic Structures**_, Norwegian University of Science and Technology_, 2022
 - **BSc in Pure Mathematics**_, Imperial College London_, 2020
 
-#### Academic writing
+### Academic writing
 
 1. Related multiplicative orders of different base numbers_, Book chapter_, In preparation (with T. Trudgian and V. Starichkova)
 1. [A note on least primitive roots](https://arxiv.org/abs/2608.20431)_, Preprint_, 2026
@@ -27,7 +27,7 @@ I am a PhD candidate in number theory at UNSW Canberra. My research interests in
 
 You can also find a more up to date account of my research on [ArXiv](https://arxiv.org/search/math?searchtype=author&query=Bagger%2C+G+K).
 
-#### Talks and seminars
+### Talks and seminars
 
 1. **Chasing primitive elements**_, Algebra seminar, University of Oslo_, 17.09.2026
 2. **Small(er) least primitive roots**_, Number Theory Down Under 14, University of New South Wales_, 31.08.2026
