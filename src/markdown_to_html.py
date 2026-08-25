@@ -55,10 +55,13 @@ def markdown_to_html_node(markdown):
 
 
             case BlockType.LIST:
-                tag = "ol"
                 tag_child = "li"
-
+                
                 block_lines = block.split("\n")
+                if block_lines[0].startswith(".1 "):
+                    tag = "ol reversed"
+                else:
+                    tag = "ol"
                 children = list()
                 for line in block_lines:
                     line = line[3:]
