@@ -22,7 +22,7 @@ h4,
 h5,
 h6 {
   text-align: center;
-  color: #000000;
+  color: #242e9f;
   margin-top: 24px;
   margin-bottom: 16px;
 }
@@ -30,7 +30,7 @@ h6 {
 h1 {
   text-align: center;
   font-size: 2.5em;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #242e9f;
 }
 
 h2 {
@@ -48,14 +48,14 @@ h6 {
 }
 
 a {
-  color: #0b344d;
+  color: #2b3dff;
   text-decoration: none;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #2b3dff;
 }
 
 a:hover {
-  color: #525252;
-  border-color: #525252;
+  color: #000000;
+  border-color: #000000;
 }
 
 ul,
