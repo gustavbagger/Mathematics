@@ -17,6 +17,7 @@ I am a PhD candidate in number theory at UNSW Canberra. My research interests in
 - **BSc in Pure Mathematics**_, Imperial College London_, 2020
 
 ### Academic writing
+
 .1 Arithmetic progressions in finite fields_, Preprint_, In preparation (with M. Fernando)
 1. Related multiplicative orders of different base numbers_, Book chapter_, In preparation (with V. Starichkova and T. Trudgian)
 1. [A note on least primitive roots](https://arxiv.org/abs/2608.20431)_, Preprint_, 2026
