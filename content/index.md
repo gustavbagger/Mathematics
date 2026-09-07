@@ -17,8 +17,8 @@ I am a PhD candidate in number theory at UNSW Canberra. My research interests in
 - **BSc in Pure Mathematics**_, Imperial College London_, 2020
 
 ### Academic writing
-
-.1 Related multiplicative orders of different base numbers_, Book chapter_, In preparation (with V. Starichkova and T. Trudgian)
+.1 Arithmetic progressions in finite fields_, Preprint_, In preparation (with M. Fernando)
+1. Related multiplicative orders of different base numbers_, Book chapter_, In preparation (with V. Starichkova and T. Trudgian)
 1. [A note on least primitive roots](https://arxiv.org/abs/2608.20431)_, Preprint_, 2026
 1. [Hybrid bounds for prime divisors](https://math.colgate.edu/~integers/aa95/aa95.pdf)_, Integers_, 2026
 1. [The modified prime sieve for primitive elements in finite fields](https://arxiv.org/abs/2507.21515)_, Preprint_, 2025 (with J. Punch)
@@ -45,9 +45,9 @@ A more up to date account of my research can be found on [ArXiv](https://arxiv.o
 
 ### Other
 
-- Number Theory seminar organiser_, University of New South Wales_,January 2026 - present
+- Number Theory seminar organiser_, University of New South Wales_, January 2026 - present
 - Development and research training grant_, University of New South Wales_, May 2026
-- B. H. Neumann prize winner_, Most outstanding student talk presented at the Annual Meeting of the Australian Mathematical Society_, December 2025
+- B. H. Neumann prize winner_, Best student talk at the Annual Meeting of the Australian Mathematical Society_, December 2025
 - Undergraduate research opportunity programme grant_, Imperial College London_, June 2019
 - Georg Mohr competition winner_, Danish national highschool mathematics competition_, 2015
 
