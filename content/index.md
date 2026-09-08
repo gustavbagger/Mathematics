@@ -18,11 +18,11 @@ I am a PhD candidate in number theory at UNSW Canberra. My research interests in
 
 ### Academic writing
 
-.1 Arithmetic progressions in finite fields_, Preprint_, In preparation (with M. Fernando)
+.1 [The modified prime sieve for primitive elements in finite fields](https://arxiv.org/abs/2507.21515)_, Finite Fields and Their Applications_, To appear (with J. Punch)
+1. [Hybrid bounds for prime divisors](https://math.colgate.edu/~integers/aa95/aa95.pdf)_, Integers_, 2026
+1. Arithmetic progressions in finite fields_, Preprint_, In preparation (with M. Fernando)
 1. Related multiplicative orders of different base numbers_, Book chapter_, In preparation (with V. Starichkova and T. Trudgian)
 1. [A note on least primitive roots](https://arxiv.org/abs/2608.20431)_, Preprint_, 2026
-1. [Hybrid bounds for prime divisors](https://math.colgate.edu/~integers/aa95/aa95.pdf)_, Integers_, 2026
-1. [The modified prime sieve for primitive elements in finite fields](https://arxiv.org/abs/2507.21515)_, Preprint_, 2025 (with J. Punch)
 1. [The determination of norm-Euclidean cyclic cubic fields](https://arxiv.org/abs/2507.05862)_, Preprint_, 2025 (with A. Booker, B. Kerr, K. McGown, V. Starichkova and T. Trudgian)
 1. [Representation Schemes for Finitely Generated Groups](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/3030012)_, Masters thesis, 2022_
 
