@@ -8,25 +8,36 @@ from textnode import TextNode, TextType
 def markdown_to_html_node(markdown):
     list_of_blocks = markdown_to_blocks(markdown)
     block_list = list()
+    under_h1 = False
+    under_h3 = False
+
     for block in list_of_blocks:
         block_type = block_to_block_type(block)
+        section_props = {"class": "under_h3"} if under_h3 else None
         match block_type:
             case BlockType.PARAGRAPH:
                 tag = "p"
-                
                 text_nodes = text_to_textnodes(block)
                 children = list()
+
                 for node in text_nodes:
-                    node.text = node.text.replace("\n"," ")
+
                     children.append(text_node_to_html_node(node))
 
-                block_node = ParentNode(tag = tag, children = children)
+
+                block_node = ParentNode(tag = tag, 
+                                        children = children,
+                                        props=section_props)
 
             case BlockType.HEADING:
                 count = 0
                 max_check = min(len(block),6)
                 while count < max_check and block[count] == "#":
                     count += 1
+
+                under_h3 = (count == 3)
+                under_h1 = (count == 1)
+
                 tag = f"h{count}"
                 block = block[count:].strip()
 
@@ -35,7 +46,9 @@ def markdown_to_html_node(markdown):
                 for node in text_nodes:
                     children.append(text_node_to_html_node(node))
 
-                block_node = ParentNode(tag = tag, children = children)
+                block_node = ParentNode(tag = tag, 
+                                        children = children,
+                                        props=None)
 
             case BlockType.UNLIST:
                 tag = "ul"
@@ -51,7 +64,9 @@ def markdown_to_html_node(markdown):
                         line_children.append(text_node_to_html_node(node))
                     line_parent = ParentNode(tag = tag_child, children = line_children) 
                     children.append(line_parent)
-                block_node = ParentNode(tag = tag, children = children)
+                block_node = ParentNode(tag = tag, 
+                                        children = children,
+                                        props=section_props)
 
 
             case BlockType.LIST:
@@ -71,7 +86,9 @@ def markdown_to_html_node(markdown):
                         line_children.append(text_node_to_html_node(node))
                     line_parent = ParentNode(tag = tag_child, children = line_children) 
                     children.append(line_parent)
-                block_node = ParentNode(tag = tag, children = children)
+                block_node = ParentNode(tag = tag, 
+                                        children = children,
+                                        props=section_props)
 
             case BlockType.QUOTE:
                 tag = "blockquote"
@@ -81,7 +98,9 @@ def markdown_to_html_node(markdown):
                 for node in text_nodes:
                     children.append(text_node_to_html_node(node))
 
-                block_node = ParentNode(tag = tag, children = children)               
+                block_node = ParentNode(tag = tag, 
+                                        children = children,
+                                        props=section_props)              
 
             case BlockType.CODE:
                 tag = "code"
@@ -89,9 +108,11 @@ def markdown_to_html_node(markdown):
                 if block.split("\n")[0] == "":
                     block = block[1:]
                 text_node = TextNode(block,TextType.CODE)
-                
-                block_node = ParentNode(tag = "pre", children = [text_node_to_html_node(text_node)])
-            
+                tag = "pre"
+                children = [text_node_to_html_node(text_node)]
+                block_node = ParentNode(tag = tag, 
+                                        children = children,
+                                        props=section_props)
         block_list.append(block_node)
 
     return ParentNode(tag = "div", children = block_list)

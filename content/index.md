@@ -18,13 +18,13 @@ I am a PhD candidate in number theory at UNSW Canberra. My research interests in
 
 ### Academic writing
 
-.1 [A general modified prime sieve](https://www.sciencedirect.com/science/article/pii/S1071579726001292)_, Finite Fields and Their Applications_, 2027 (with J. Punch)
-1. [Hybrid bounds for prime divisors](https://math.colgate.edu/~integers/aa95/aa95.pdf)_, Integers_, 2026
-1. Related multiplicative orders of different base numbers_, Book chapter_, In preparation (with V. Starichkova and T. Trudgian)
-1. [Primitive normal progressions in finite fields](https://arxiv.org/abs/2610.07538)_, Preprint_, 2026 (with M. Fernando)
-1. [A note on least primitive roots](https://arxiv.org/abs/2608.20431)_, Preprint_, 2026
-1. [The determination of norm-Euclidean cyclic cubic fields](https://arxiv.org/abs/2507.05862)_, Preprint_, 2025 (with A. Booker, B. Kerr, K. McGown, V. Starichkova and T. Trudgian)
-1. [Representation Schemes for Finitely Generated Groups](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/3030012)_, Masters thesis, 2022_
+.1 Gustav Kjærbye Bagger and James Punch, _A general modified prime sieve_, Finite Fields and Their Applications, 2027 ([arXiv](https://arxiv.org/abs/2507.21515), [paper](https://www.sciencedirect.com/science/article/pii/S1071579726001292))
+1. Gustav Kjærbye Bagger, _Hybrid bounds for prime divisors_, Integers, 2026 ([arXiv](https://arxiv.org/abs/2412.00010), [paper](https://math.colgate.edu/~integers/aa95/aa95.pdf))
+1. Gustav Kjærbye Bagger, Valeriia Starichkova and Timothy Trudgian, _Related multiplicative orders of different base numbers_, Book chapter, In preparation
+1. Gustav Kjærbye Bagger and Matthew Fernando, _Primitive normal progressions in finite fields_, Preprint, 2026 ([arXiv](https://arxiv.org/abs/2610.07538))
+1. Gustav Kjærbye Bagger, _A note on least primitive roots_, Preprint, 2026 ([arXiv](https://arxiv.org/abs/2608.20431))
+1. Gustav Kjærbye Bagger, Andrew Booker, Bryce Kerr, Kevin McGown, Valeriia Starichkova and Timothy Trudgian, _The determination of norm-Euclidean cyclic cubic fields_, Preprint, 2025 ([arXiv](https://arxiv.org/abs/2507.05862))
+1. Gustav Kjærbye Bagger, _Representation Schemes for Finitely Generated Groups_, Masters thesis, 2022 ([thesis](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/3030012))
 
 A more up to date account of my research can be found on [ArXiv](https://arxiv.org/search/math?searchtype=author&query=Bagger%2C+G+K).
 
@@ -52,7 +52,15 @@ A more up to date account of my research can be found on [ArXiv](https://arxiv.o
 - Undergraduate research opportunity programme grant_, Imperial College London_, June 2019
 - Georg Mohr competition winner_, Danish national highschool mathematics competition_, 2015
 
+### Contact
 
-Want to get in touch? I can be reached via email at 
+#### Address
 
-`g.bagger@unsw.edu.au`
+School of Science
+University of New South Wales, Canberra
+Northcott Dr
+Campbell ACT 2612
+
+#### Email
+
+g.bagger@unsw.edu.au

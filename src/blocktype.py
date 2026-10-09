@@ -8,6 +8,7 @@ class BlockType(Enum):
     QUOTE = "quote"
     UNLIST = "unordered_list"
     LIST = "ordered_list"
+    MULTI_COLUMN = "multi_column"
 
 def block_to_block_type(block):
     if len(re.findall(r"^#{1,6} ",block))!= 0:
