@@ -13,8 +13,61 @@ def markdown_to_html_node(markdown):
 
     for block in list_of_blocks:
         block_type = block_to_block_type(block)
-        section_props = {"class": "under_h3"} if under_h3 else None
+        if under_h1:
+            section_props = {"class": "under_h1"} 
+        elif under_h3:
+            section_props = {"class": "under_h3"}
+        else: 
+            section_props = None
         match block_type:
+
+            case BlockType.MULTI_COLUMN:
+                tag = "div"
+                children = []
+                current_column = []
+
+                for line in block.split("\n"):
+                    if line.startswith("mul "):
+                        if current_column:
+                            children.append(
+                                ParentNode(
+                                    tag="div",
+                                    children=current_column,
+                                    props={}
+                                )
+                            )
+
+                        current_column = []
+
+                        line = line.removeprefix("mul ").strip()
+
+                    text_nodes = text_to_textnodes(line)
+
+                    line_children = [text_node_to_html_node(node) for node in text_nodes]
+
+                    
+                    current_column.append(
+                        ParentNode(
+                            tag="p",
+                            children=line_children,
+                            props={}
+                        )
+                    )
+
+                if current_column:
+                    children.append(
+                        ParentNode(
+                            tag="div",
+                            children=current_column,
+                            props={}
+                        )
+                    )
+
+                block_node = ParentNode(tag=tag,
+                                        children=children,
+                                        props={"class": "multi-column"})
+                                        
+
             case BlockType.PARAGRAPH:
                 tag = "p"
                 text_nodes = text_to_textnodes(block)

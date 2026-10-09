@@ -26,8 +26,6 @@ I am a PhD candidate in number theory at UNSW Canberra. My research interests in
 1. Gustav Kjærbye Bagger, Andrew Booker, Bryce Kerr, Kevin McGown, Valeriia Starichkova and Timothy Trudgian, _The determination of norm-Euclidean cyclic cubic fields_, Preprint, 2025 ([arXiv](https://arxiv.org/abs/2507.05862))
 1. Gustav Kjærbye Bagger, _Representation Schemes for Finitely Generated Groups_, Masters thesis, 2022 ([thesis](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/3030012))
 
-A more up to date account of my research can be found on [ArXiv](https://arxiv.org/search/math?searchtype=author&query=Bagger%2C+G+K).
-
 ### Talks and seminars
 
 .1 "Chasing primitive elements"_, Algebra seminar, University of Oslo_, September 2026
@@ -54,13 +52,13 @@ A more up to date account of my research can be found on [ArXiv](https://arxiv.o
 
 ### Contact
 
-#### Address
-
+mul **Address**
 School of Science
 University of New South Wales, Canberra
 Northcott Dr
 Campbell ACT 2612
-
-#### Email
-
+mul **Office**
+Building 26, Room 114
+::blank
+**Email**
 g.bagger@unsw.edu.au

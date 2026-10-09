@@ -1,6 +1,28 @@
 import re
 
 from textnode import TextNode, TextType
+def split_nodes_blank(old_nodes):
+    new_nodes = []
+
+    for node in old_nodes:
+        if node.text_type is not TextType.TEXT:
+            new_nodes.append(node)
+            continue
+
+        parts = node.text.split("::blank")
+
+        for index, part in enumerate(parts):
+            if part:
+                new_nodes.append(
+                    TextNode(part, TextType.TEXT)
+                )
+
+            if index < len(parts) - 1:
+                new_nodes.append(
+                    TextNode("", TextType.BREAK)
+                )
+
+    return new_nodes
 
 def split_nodes_delimiter(old_nodes,delimiter,text_type):
     return_list = list()
@@ -88,13 +110,16 @@ def text_to_textnodes(text):
     code_list = split_nodes_delimiter(italic_list,"`",TextType.CODE)
     image_list = split_nodes_image(code_list)
     link_list = split_nodes_link(image_list)
-    return link_list
+    break_list = split_nodes_blank(link_list)
+    return break_list
     
 def markdown_to_blocks(markdown):
-    split_list = markdown.split("\n\n")
-    return_list = list()
-    for block in split_list:
-        stripped_block = block.strip()
-        if stripped_block != "":
-            return_list.append(stripped_block)
-    return return_list
+    markdown = markdown.replace("\r\n", "\n")
+
+    split_list = re.split(r"\n[ \t]*\n", markdown)
+
+    return [
+        block.strip()
+        for block in split_list
+        if block.strip()
+    ]

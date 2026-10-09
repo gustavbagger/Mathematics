@@ -19,7 +19,7 @@ h1,
 h2,
 h3 {
   text-align: center;
-  color: #242e9f;
+  color: #000000;
   margin-top: 24px;
   margin-bottom: 16px;
 }
@@ -27,7 +27,7 @@ h3 {
 h1 {
   text-align: center;
   font-size: 2.5em;
-  border-bottom: 2px solid #242e9f;
+  border-bottom: 2px solid #000000;
 }
 
 h2 {
@@ -44,15 +44,21 @@ h6 {
   font-size: 1.2em;
 }
 
-.under_h3 {
+.under_h3, .multi-column {
   border: 1px solid #000000;
   border-radius: 1px;
   padding: 1rem 1rem 1rem 2rem;
   background: #cfcfcf;
 }
 
+.multi-column {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
 p {
-    white-space: pre-line;
+  white-space: pre-line;
 }
 
 a {
