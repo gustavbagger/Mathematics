@@ -1,4 +1,6 @@
 import os
+import shutil
+
 from markdown_to_html import markdown_to_html_node
 from extract_title import extract_title
 
@@ -27,20 +29,23 @@ def generate_page(from_path, template_path, dest_path, basepath):
     pass
 
 def generate_pages_recursive(dir_path_content, template_path, dest_dir_path, basepath):
-
+    os.makedirs(dest_dir_path, exist_ok=True)
     for file in os.listdir(dir_path_content):
         file_path = os.path.join(dir_path_content,file)
+        dest_path = os.path.join(dest_dir_path, file)
+
         if os.path.isfile(file_path):
-            if file[-3:] == ".md":
-                file_html = file[:-3]+".html"
-                print(file_html)
-                dest_path = os.path.join(dest_dir_path,file_html)
+            if file.endswith(".md"):
+                dest_path = os.path.join(dest_dir_path,file[:-3]+".html")
                 generate_page(file_path,template_path,dest_path,basepath)
-            continue
-        else:
+            
+            elif file.lower().endswith(".pdf"):
+                shutil.copy2(file_path,dest_path)
+
+        elif os.path.isdir(file_path):
             dest_path = os.path.join(dest_dir_path,file)
             generate_pages_recursive(file_path,template_path,dest_path,basepath)
-            continue
+            
     return
             
 
