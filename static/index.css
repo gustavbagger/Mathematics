@@ -45,10 +45,10 @@ h6 {
 }
 
 .under_h3, .multi-column {
-  border: 1px solid #000000;
+  border: 1px solid #eaeaea;
   border-radius: 1px;
   padding: 1rem 1rem 1rem 2rem;
-  background: #cfcfcf;
+  background: #eaeaea;
 }
 
 .multi-column {
