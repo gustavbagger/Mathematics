@@ -15,9 +15,10 @@ g.bagger@unsw.edu.au
 
 ### Academic writing
 
-.1 Gustav Kjærbye Bagger and James Punch, _A general modified prime sieve_, Finite Fields and Their Applications, 2027 ([arXiv](pdfs/BaggerPunchArxiv.pdf), [paper](pdfs/BaggerPunchPaper.pdf))
-1. Gustav Kjærbye Bagger, _Hybrid bounds for prime divisors_, Integers, 2026 ([arXiv](pdfs/BaggerHybridArxiv.pdf), [paper](pdfs/BaggerHybridPaper.pdf))
+.1 Gustav Kjærbye Bagger, _Norm-Euclideanity in prime cyclic fields_, Preprint, In preparation
 1. Gustav Kjærbye Bagger, Valeriia Starichkova and Timothy Trudgian, _Related multiplicative orders of different base numbers_, Book chapter, In preparation
+1. Gustav Kjærbye Bagger and James Punch, _A general modified prime sieve_, Finite Fields and Their Applications, 2027 ([arXiv](pdfs/BaggerPunchArxiv.pdf), [paper](pdfs/BaggerPunchPaper.pdf))
+1. Gustav Kjærbye Bagger, _Hybrid bounds for prime divisors_, Integers, 2026 ([arXiv](pdfs/BaggerHybridArxiv.pdf), [paper](pdfs/BaggerHybridPaper.pdf))
 1. Gustav Kjærbye Bagger and Matthew Fernando, _Primitive normal progressions in finite fields_, Preprint, 2026 ([arXiv](pdfs/BaggerFernandoArxiv.pdf))
 1. Gustav Kjærbye Bagger, _A note on least primitive roots_, Preprint, 2026 ([arXiv](pdfs/BaggerGrosswaldArxiv.pdf))
 1. Gustav Kjærbye Bagger, Andrew Booker, Bryce Kerr, Kevin McGown, Valeriia Starichkova and Timothy Trudgian, _The determination of norm-Euclidean cyclic cubic fields_, Preprint, 2025 ([arXiv](pdfs/BaggerBookerKerrMcGownStarichkovaTrudgianArxiv.pdf))
