@@ -9,7 +9,7 @@ Northcott Dr
 Campbell ACT 2612
 **Email**
 [g.bagger@unsw.edu.au](mailto:g.bagger@unsw.edu.au)
-mul ![Me](/pictures/Marius.JPG)
+mul ![Me](pictures/Marius.JPG)
 
 ### Academic writing
 
