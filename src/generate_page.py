@@ -41,6 +41,8 @@ def generate_pages_recursive(dir_path_content, template_path, dest_dir_path, bas
             
             elif file.lower().endswith(".pdf"):
                 shutil.copy2(file_path,dest_path)
+            elif file.lower().endswith(".jpg"):
+                shutil.copy2(file_path,dest_path)
 
         elif os.path.isdir(file_path):
             dest_path = os.path.join(dest_dir_path,file)

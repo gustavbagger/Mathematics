@@ -5,7 +5,7 @@ body {
   line-height: 1.7;
   margin: 0;
   padding: 20px;
-  max-width: 900px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
@@ -110,11 +110,13 @@ blockquote {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 6px;
-  border: 3px solid #3c3c42;
-  box-shadow: 3px 3px 6px #000;
+  max-width: 80%;
+  margin: auto;
+  border-radius: 1px;
+  border: 1px solid #1f1c25;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 ::-webkit-scrollbar {
