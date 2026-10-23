@@ -13,9 +13,9 @@ mul ![Me](pictures/Marius.JPG)
 
 ### Academic writing
 
-.1 Norm-Euclidean cyclic fields, _Preprint, In preparation_
-1. Determining norm-euclidean complex cubic fields, _Preprint, In preparation_, with A. Booker, K. McGown and T. Trudgian
+.1 Determining norm-euclidean complex cubic fields, _Preprint, In preparation_, with A. Booker, K. McGown and T. Trudgian
 1. Related multiplicative orders of different base numbers, _Book chapter, In preparation_, with V. Starichkova and T. Trudgian
+1. Norm-Euclidean cyclic fields, _Preprint, 2026_ ([arXiv](pdfs/BaggerNormArxiv.pdf))
 1. Primitive normal progressions in finite fields, _Preprint, 2026_, with M. Fernando ([arXiv](pdfs/BaggerFernandoArxiv.pdf))
 1. A note on least primitive roots, _Preprint, 2026_ ([arXiv](pdfs/BaggerGrosswaldArxiv.pdf))
 1. The determination of norm-Euclidean cyclic cubic fields, _Preprint, 2025_, with A. Booker, B. Kerr, K. McGown, V. Starichkova and T. Trudgian ([arXiv](pdfs/BaggerBookerKerrMcGownStarichkovaTrudgianArxiv.pdf))
