@@ -10,23 +10,22 @@ class BlockType(Enum):
     LIST = "ordered_list"
     MULTI_COLUMN = "multi_column"
 
+def is_mul(line):
+    return line == "mul" or line.startswith("mul ")
+
+
 def block_to_block_type(block):
     block_lines = [line.strip() for line in block.splitlines()]
-    
+
     mul_count = sum(
-    line.startswith("mul ")
+    is_mul(line)
     for line in block_lines
     )
 
     if (
-        block_lines[0].startswith("mul ")
+        block_lines 
+        and is_mul(block_lines[0])
         and mul_count >= 2
-    ):
-        return BlockType.MULTI_COLUMN
-    
-    if (
-        len(block_lines) >= 2
-        and all(line.startswith("mul ") for line in block_lines)
     ):
         return BlockType.MULTI_COLUMN
 

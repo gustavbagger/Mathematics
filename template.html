@@ -8,6 +8,23 @@
   </head>
 
   <body>
-    <article>{{ Content }}</article>
+    <div class="site-layout">
+      <header class="page-banner">
+        <h1>{{ Title }}</h1>
+      </header>
+      <nav class="leftbar" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="communication.html">Communication</a>
+        <a href="events.html">Events</a>
+        <a href="cv.html">Curriculum Vitae</a>
+      </nav>
+      <main class="page-content">
+      <article>
+        {{ Content }}
+      </article>
+      </main>
+      <div class="rightbar" aria-hidden="true"></div>
+    </div>
   </body>
 </html>

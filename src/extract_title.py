@@ -1,12 +1,8 @@
 import re
 
 def extract_title(markdown):
-    lines = markdown.split("\n")
-    matches = list()
-    for line in lines:
-        matches.extend(re.findall(r"^#([^#].*)",line))
-    try:
-        return matches[0].strip()
-    except:
-        raise Exception("Error: no header")
+    match = re.match(r"title:[ \t]*(.+)", markdown)
+    if not match:
+        raise ValueError("First line must be: title: TITLE")
+    return match.group(1).strip()
 

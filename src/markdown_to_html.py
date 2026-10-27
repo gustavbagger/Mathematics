@@ -6,7 +6,8 @@ from text_to_html import text_node_to_html_node
 from textnode import TextNode, TextType
 
 def markdown_to_html_node(markdown):
-    list_of_blocks = markdown_to_blocks(markdown)
+    markdown_body = "\n".join(markdown.splitlines()[1:])
+    list_of_blocks = markdown_to_blocks(markdown_body)
     block_list = list()
     under_h1 = False
     under_h3 = False
@@ -22,50 +23,65 @@ def markdown_to_html_node(markdown):
         match block_type:
 
             case BlockType.MULTI_COLUMN:
-                tag = "div"
-                children = []
-                current_column = []
+            
+                columns = []
+                current_column = None
 
-                for line in block.split("\n"):
-                    if line.startswith("mul "):
-                        if current_column:
-                            children.append(
-                                ParentNode(
-                                    tag="div",
-                                    children=current_column,
-                                    props={}
-                                )
-                            )
-
+                for raw_line in block.splitlines():
+                    line = raw_line.strip()
+                    if line == "mul":
                         current_column = []
+                        columns.append(current_column)
+                        continue
 
-                        line = line.removeprefix("mul ").strip()
+                    if line.startswith("mul "):
+                        current_column = []
+                        columns.append(current_column)
+                        line = line[4:].strip()
 
-                    text_nodes = text_to_textnodes(line)
+                    if not line:
+                        continue
 
-                    line_children = [text_node_to_html_node(node) for node in text_nodes]
+                    if current_column is None:
+                        raise ValueError("Multi-column block must start with mul")
 
+                    if line.startswith("#### "):
+                        tag = "h4"
+                        text = line[5:].strip()
+                    else:
+                        tag = "p"
+                        text = line
                     
+                    children = [
+                        text_node_to_html_node(node)
+                        for node in text_to_textnodes(text)
+                    ]
+
                     current_column.append(
-                        ParentNode(
-                            tag="p",
-                            children=line_children,
-                            props={}
+                            ParentNode(
+                                tag=tag,
+                                children=children,
+                                props= section_props
+                            )
                         )
-                    )
 
-                if current_column:
-                    children.append(
-                        ParentNode(
-                            tag="div",
-                            children=current_column,
-                            props={}
-                        )
+                column_nodes = [
+                    ParentNode(
+                        tag="div",
+                        children=column,
+                        props={"class":"multi-column-item"},
                     )
+                    for column in columns
+                ]
 
-                block_node = ParentNode(tag=tag,
-                                        children=children,
-                                        props={"class": "multi-column"})
+                block_node = ParentNode(
+                    tag="div",
+                    children=column_nodes,
+                    props={
+                        "class": "multi-column",
+                        "style": f"--column-count: {len(columns)};",
+                           },
+                    )
                                         
 
             case BlockType.PARAGRAPH:
