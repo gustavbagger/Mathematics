@@ -2,8 +2,8 @@ title: Research
 
 #### Papers
 
-- **A general modified prime sieve**, _Finite Fields and Their Applications, 2027_, with J. Punch ([arXiv](pdfs/BaggerPunchArxiv.pdf), [paper](pdfs/BaggerPunchPaper.pdf))
-- **Hybrid bounds for prime divisors**, _Integers, 2026_ ([arXiv](pdfs/BaggerHybridArxiv.pdf), [paper](pdfs/BaggerHybridPaper.pdf))
+- **A general modified prime sieve**, _Finite Fields and Their Applications, 2027_, with J. Punch ([paper](pdfs/BaggerPunchPaper.pdf), [arXiv:2507.21515](pdfs/BaggerPunchArxiv.pdf))
+- **Hybrid bounds for prime divisors**, _Integers, 2026_ ([paper](pdfs/BaggerHybridPaper.pdf), [arXiv:2412.00010](pdfs/BaggerHybridArxiv.pdf))
 
 #### Preprints
 
