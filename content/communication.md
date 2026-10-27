@@ -7,7 +7,7 @@ title: Communication
 - **Small(er) least primitive roots**_, Number Theory Down Under 14, University of New South Wales_, August 2026
 - **Norm-Euclidean cyclic cubic fields**_, 69th Annual Meeting of the Australian Mathematical Society, La Trobe University_, December 2025
 - **Detecting primitive elements in finite fields**_, Number Theory Down Under(er), University of Canterbury_, August 2025
-- **Hybrid bounds for prime divisors**_, 68th Annual Meeting of the Australian Mathematical Society, University of Auckland_, December 2024
+- **Hybrid bounds for prime divisors**_, Joint meeting of the NZMS, AustMS and AMS, University of Auckland_, December 2024
 
 #### Seminars
 

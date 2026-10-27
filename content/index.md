@@ -1,6 +1,7 @@
 title: Gustav Kjærbye Bagger
 
 mul #### Address
+[Number Theory Group](https://www.unsw.edu.au/canberra/our-research/research-excellence/science-research/number-theory)
 [School of Science](https://www.unsw.edu.au/canberra/about-us/our-schools/science)
 [University of New South Wales, Canberra](https://www.unsw.edu.au/canberra)
 Northcott Dr
@@ -11,7 +12,7 @@ mul ![Me](pictures/Marius.JPG)
 
 #### About me
 
-I am a 3rd year PhD candidate in number theory at UNSW Canberra, supervised by [Timothy Trudgian](https://www.unsw.edu.au/staff/timothy-trudgian) and [Bryce Kerr](https://www.unsw.edu.au/staff/bryce-kerr). Prior to that, I was an undergraduate at [Imperial College London](https://www.imperial.ac.uk/) and completed my master's degree at the [Norwegian University of Science and Technology](https://www.ntnu.edu/) under the supervision of [Markus Szymik](https://sheffield.ac.uk/mps/people/all-academic-staff/markus-szymik). 
+I am a 3rd year PhD candidate in number theory at [UNSW Canberra](https://www.unsw.edu.au/canberra), supervised by [Timothy Trudgian](https://www.unsw.edu.au/staff/timothy-trudgian) and [Bryce Kerr](https://www.unsw.edu.au/staff/bryce-kerr). Prior to that, I was an undergraduate at [Imperial College London](https://www.imperial.ac.uk/) and completed my master's degree at the [Norwegian University of Science and Technology](https://www.ntnu.edu/) under the supervision of [Markus Szymik](https://sheffield.ac.uk/mps/people/all-academic-staff/markus-szymik). 
 
 My main research interests include 
 - Cyclotomic fields 
