@@ -21,3 +21,9 @@ title: Curriculum Vitae
 - **B. H. Neumann prize winner**_, Best student talk at the Annual Meeting of the Australian Mathematical Society_, December 2025
 - **Undergraduate research opportunity programme grant**_, Imperial College London_, June 2019
 - **Georg Mohr competition winner**_, Danish national highschool mathematics competition_, 2015
+
+#### Relevant skills
+
+- I have experience in the following programming languages: Python, Golang, C, Typescript and Mathematica.
+- I am familiar with standard concepts/structures in computer science: web development (HTML, CSS, HTTP(s)), databases (CSV, PostgreSQL), version control (Git) and containers (Docker).
+- I speak the following (natural) languages: Danish (native), English (native), Norwegian (fluent), Swedish (working proficiency) and German (elementary proficiency).
