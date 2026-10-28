@@ -13,7 +13,7 @@ title: Research
 - **A note on least primitive roots**, _Preprint, 2026_ ([arXiv:2608.20431](pdfs/BaggerGrosswaldArxiv.pdf))
 - **The determination of norm-Euclidean cyclic cubic fields**, _Preprint, 2025_, with A. Booker, B. Kerr, K. McGown, V. Starichkova and T. Trudgian ([arXiv:2507.05862](pdfs/BaggerBookerKerrMcGownStarichkovaTrudgianArxiv.pdf))
 
-#### In preperation
+#### In preparation
 
 - **Related multiplicative orders of different base numbers**, _Book chapter_, with V. Starichkova and T. Trudgian
 
