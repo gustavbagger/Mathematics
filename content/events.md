@@ -3,7 +3,7 @@ title: Events
 #### Conferences
 
 - **70th Annual Meeting of the Australian Mathematical Society**, _University of Western Australia_, December 2026
-- **Number Theory Down Under 14**, _University of New South Wales_, August 2026
+- **Number Theory Down Under 14**, _University of New South Wales - Canberra_, August 2026
 - **69th Annual Meeting of the Australian Mathematical Society**, _La Trobe University - Melbourne_, December 2025
 - **Number Theory Down Under(er)**, _University of Canterbury_, August 2025
 - **Asymptotic Counting and L-Functions**, _Max Planck Institute for Mathematics_, May 2025

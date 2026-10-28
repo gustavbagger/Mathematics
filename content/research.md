@@ -7,6 +7,7 @@ title: Research
 
 #### Preprints
 
+- **Determining norm-Euclidean complex cubic fields**, _Preprint, 2026_, with A. Booker and T. Trudgian ([arXiv:2610.30621](pdfs/BaggerNormArxiv.pdf))
 - **Norm-Euclidean cyclic fields**, _Preprint, 2026_ ([arXiv:2610.30621](pdfs/BaggerNormArxiv.pdf))
 - **Primitive normal progressions in finite fields**, _Preprint, 2026_, with M. Fernando ([arXiv:2610.07538](pdfs/BaggerFernandoArxiv.pdf))
 - **A note on least primitive roots**, _Preprint, 2026_ ([arXiv:2608.20431](pdfs/BaggerGrosswaldArxiv.pdf))
@@ -14,8 +15,7 @@ title: Research
 
 #### In preperation
 
-- **Determining norm-euclidean complex cubic fields**, _Preprint, In preparation_, with A. Booker, K. McGown and T. Trudgian
-- **Related multiplicative orders of different base numbers**, _Book chapter, In preparation_, with V. Starichkova and T. Trudgian
+- **Related multiplicative orders of different base numbers**, _Book chapter_, with V. Starichkova and T. Trudgian
 
 #### Other
 
