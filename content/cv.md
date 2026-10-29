@@ -31,6 +31,10 @@ title: Curriculum Vitae
 
 #### Relevant skills
 
-- **(natural) Language skills**: Danish (native), English (native), Norwegian (fluent), Swedish (working proficiency) and German (elementary proficiency).
-- **(programming) Language skills**: Python, Golang, C, Typescript and Mathematica.
-- Familiarity with standard concepts/structures in computer science: web development (HTML, CSS, HTTP(s)), databases (CSV, PostgreSQL), version control (Git) and containers (Docker).
+- **Language proficiency (natural)**: Danish (native), English (native), Norwegian (fluent), Swedish (working proficiency) and German (elementary proficiency).
+- **Language proficiency (programming)**: Python, Golang, C, Typescript and Mathematica.
+- Familiarity with standard concepts/structures in computer science
+  - web development (HTML, CSS, HTTP(s))
+  - databases (CSV, PostgreSQL)
+  - version control (Git) 
+  - containers (Docker)
