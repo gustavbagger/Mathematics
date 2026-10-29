@@ -5,6 +5,42 @@ from blocktype import block_to_block_type, BlockType
 from text_to_html import text_node_to_html_node
 from textnode import TextNode, TextType
 
+def unlist_to_html(lines,lineNR=0,indent=None, props=None):
+    if indent is None:
+        indent = len(lines[lineNR]) - len(lines[lineNR].lstrip(" "))
+
+    itemsAtlevel = []
+
+    while lineNR < len(lines):
+        line = lines[lineNR]
+
+        if not line.strip():
+            lineNR+= 1
+            continue
+
+        lineContent = line.lstrip(" ")
+        currentIndent = len(line)-len(lineContent)
+
+        if currentIndent < indent or not lineContent.startswith("- "):
+            #this is to exit out when we start a new superitem or finish list
+            break
+
+        if currentIndent > indent:
+            #we are at a deeper list, recurse
+            deeperList, lineNR = unlist_to_html(lines,lineNR,currentIndent)
+            itemsAtlevel[-1].children.append(deeperList)
+            continue
+
+        #else, we are at the current correct depth
+        textNodes = text_to_textnodes(lineContent[2:].strip())
+        children = [text_node_to_html_node(node) for node in textNodes]
+        itemsAtlevel.append(ParentNode(tag="li",children=children))
+        lineNR+=1
+    return ParentNode(tag="ul",children = itemsAtlevel, props=props),lineNR
+
+
+    
+
 def markdown_to_html_node(markdown):
     markdown_body = "\n".join(markdown.splitlines()[1:])
     list_of_blocks = markdown_to_blocks(markdown_body)
@@ -120,23 +156,8 @@ def markdown_to_html_node(markdown):
                                         props=None)
 
             case BlockType.UNLIST:
-                tag = "ul"
-                tag_child = "li"
-
-                block_lines = block.split("\n")
-                children = list()
-                for line in block_lines:
-                    line = line[2:]
-                    line_text_nodes = text_to_textnodes(line)
-                    line_children = list()
-                    for node in line_text_nodes:
-                        line_children.append(text_node_to_html_node(node))
-                    line_parent = ParentNode(tag = tag_child, children = line_children) 
-                    children.append(line_parent)
-                block_node = ParentNode(tag = tag, 
-                                        children = children,
-                                        props=section_props)
-
+                
+                block_node,_ = unlist_to_html(block.splitlines(),props=section_props)
 
             case BlockType.LIST:
                 tag_child = "li"

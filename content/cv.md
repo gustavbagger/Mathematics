@@ -14,16 +14,23 @@ title: Curriculum Vitae
 - **MSc in Algebraic Structures**_, Norwegian University of Science and Technology_, 2022
 - **BSc in Pure Mathematics**_, Imperial College London_, 2020
 
-#### Related activities
+#### Grants and awards
 
-- **Number Theory seminar organiser**_, University of New South Wales_, January 2026 - present
 - **Development and research training grant**_, University of New South Wales_, May 2026
 - **B. H. Neumann prize winner**_, Best student talk at the Annual Meeting of the Australian Mathematical Society_, December 2025
 - **Undergraduate research opportunity programme grant**_, Imperial College London_, June 2019
 - **Georg Mohr competition winner**_, Danish national highschool mathematics competition_, 2015
 
+#### Academic service
+
+- **Number Theory seminar organiser**_, University of New South Wales_, January 2026 - present
+- **Peer reviewing**
+  - Journal of Number Theory (2026)
+  - American Mathematical Monthly (2026) 
+  - Applicable Algebra in Engineering, Communication and Computing (2025)
+
 #### Relevant skills
 
-- I have experience in the following programming languages: Python, Golang, C, Typescript and Mathematica.
-- I am familiar with standard concepts/structures in computer science: web development (HTML, CSS, HTTP(s)), databases (CSV, PostgreSQL), version control (Git) and containers (Docker).
-- I speak the following (natural) languages: Danish (native), English (native), Norwegian (fluent), Swedish (working proficiency) and German (elementary proficiency).
+- **(natural) Language skills**: Danish (native), English (native), Norwegian (fluent), Swedish (working proficiency) and German (elementary proficiency).
+- **(programming) Language skills**: Python, Golang, C, Typescript and Mathematica.
+- Familiarity with standard concepts/structures in computer science: web development (HTML, CSS, HTTP(s)), databases (CSV, PostgreSQL), version control (Git) and containers (Docker).
